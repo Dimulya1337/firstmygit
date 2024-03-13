@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+</head>
+
+<body>
+<form action="" method="POST">
+{% csrf_token %}
+
+  <input type="text" name ="field1" placeholder="price">
+  <input type="text" name ="field2" placeholder="taste">
+  <input type="text" name ="field3" placeholder="turnover">
+  <input type="text" name ="field4" placeholder="description">
+  <input type="text" name ="field5" placeholder="main">
+  <input type="submit" value = "COOL2">
+
+</form>
+
+{% for i in test%}
+    {{i.price}}
+    {{i.turnover}}
+    {{i.taste}}
+ {%endfor%}   
+
+
+
+
+</form>
+
+
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
