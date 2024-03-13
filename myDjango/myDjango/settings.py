@@ -80,7 +80,7 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
-##11212asdfadsf
+##11212asdfadsfdasdas
 
 
 # Password validation
