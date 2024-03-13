@@ -16,7 +16,7 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from myapp.views import index , auth , regis , main , present
+from myapp.views import index , auth , regis , main , card
 
 
 urlpatterns = [
@@ -25,5 +25,5 @@ urlpatterns = [
     path('auth/' , auth),
     path('regis/' , regis),
     path("main/" , main),
-    path('main/<myid>' , present),
+    path('main/<myid>' , card),
 ]
